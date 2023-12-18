@@ -1,0 +1,118 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.8 100976  8276 ?        Ss   14:39   0:05 /sbin/init
+root           2  0.0  0.0      0     0 ?        S    14:39   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   14:39   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   14:39   0:00 [rcu_par_gp]
+root           5  0.0  0.0      0     0 ?        I<   14:39   0:00 [slub_flushwq]
+root           6  0.0  0.0      0     0 ?        I<   14:39   0:00 [netns]
+root           8  0.0  0.0      0     0 ?        I<   14:39   0:00 [kworker/0:0H-events_highpri]
+root          10  0.0  0.0      0     0 ?        I<   14:39   0:00 [mm_percpu_wq]
+root          11  0.0  0.0      0     0 ?        I    14:39   0:00 [rcu_tasks_rude_kthread]
+root          12  0.0  0.0      0     0 ?        I    14:39   0:00 [rcu_tasks_trace_kthread]
+root          13  0.0  0.0      0     0 ?        S    14:39   0:02 [ksoftirqd/0]
+root          14  0.0  0.0      0     0 ?        I    14:39   0:10 [rcu_sched]
+root          15  0.0  0.0      0     0 ?        S    14:39   0:00 [migration/0]
+root          16  0.0  0.0      0     0 ?        S    14:39   0:00 [idle_inject/0]
+root          18  0.0  0.0      0     0 ?        S    14:39   0:00 [cpuhp/0]
+root          19  0.0  0.0      0     0 ?        S    14:39   0:00 [cpuhp/1]
+root          20  0.0  0.0      0     0 ?        S    14:39   0:00 [idle_inject/1]
+root          21  0.0  0.0      0     0 ?        S    14:39   0:00 [migration/1]
+root          22  0.0  0.0      0     0 ?        S    14:39   0:03 [ksoftirqd/1]
+root          24  0.0  0.0      0     0 ?        I<   14:39   0:00 [kworker/1:0H-kblockd]
+root          25  0.0  0.0      0     0 ?        S    14:39   0:00 [kdevtmpfs]
+root          26  0.0  0.0      0     0 ?        I<   14:39   0:00 [inet_frag_wq]
+root          27  0.0  0.0      0     0 ?        S    14:39   0:00 [kauditd]
+root          29  0.0  0.0      0     0 ?        S    14:39   0:00 [khungtaskd]
+root          31  0.0  0.0      0     0 ?        S    14:39   0:00 [oom_reaper]
+root          32  0.0  0.0      0     0 ?        I<   14:39   0:00 [writeback]
+root          33  0.0  0.0      0     0 ?        S    14:39   0:06 [kcompactd0]
+root          34  0.0  0.0      0     0 ?        SN   14:39   0:00 [ksmd]
+root          36  0.0  0.0      0     0 ?        SN   14:39   0:00 [khugepaged]
+root          37  0.0  0.0      0     0 ?        I<   14:39   0:00 [kintegrityd]
+root          38  0.0  0.0      0     0 ?        I<   14:39   0:00 [kblockd]
+root          39  0.0  0.0      0     0 ?        I<   14:39   0:00 [blkcg_punt_bio]
+root          40  0.0  0.0      0     0 ?        I<   14:39   0:00 [tpm_dev_wq]
+root          41  0.0  0.0      0     0 ?        I<   14:39   0:00 [ata_sff]
+root          42  0.0  0.0      0     0 ?        I<   14:39   0:00 [md]
+root          43  0.0  0.0      0     0 ?        I<   14:39   0:00 [edac-poller]
+root          44  0.0  0.0      0     0 ?        I<   14:39   0:00 [devfreq_wq]
+root          45  0.0  0.0      0     0 ?        S    14:39   0:00 [watchdogd]
+root          46  0.0  0.0      0     0 ?        I<   14:39   0:00 [kworker/0:1H-kblockd]
+root          47  0.8  0.0      0     0 ?        S    14:39   2:42 [kswapd0]
+root          48  0.0  0.0      0     0 ?        S    14:39   0:00 [ecryptfs-kthread]
+root          49  0.0  0.0      0     0 ?        I<   14:39   0:00 [kthrotld]
+root          50  0.0  0.0      0     0 ?        I<   14:39   0:00 [acpi_thermal_pm]
+root          51  0.0  0.0      0     0 ?        S    14:39   0:00 [xenbus_probe]
+root          52  0.0  0.0      0     0 ?        S    14:39   0:00 [scsi_eh_0]
+root          53  0.0  0.0      0     0 ?        I<   14:39   0:00 [scsi_tmf_0]
+root          54  0.0  0.0      0     0 ?        I<   14:39   0:00 [nvme-wq]
+root          55  0.0  0.0      0     0 ?        I<   14:39   0:00 [nvme-reset-wq]
+root          56  0.0  0.0      0     0 ?        I<   14:39   0:00 [nvme-delete-wq]
+root          57  0.0  0.0      0     0 ?        I<   14:39   0:00 [nvme-auth-wq]
+root          58  0.0  0.0      0     0 ?        I<   14:39   0:00 [kworker/1:1H-kblockd]
+root          59  0.0  0.0      0     0 ?        I<   14:39   0:00 [mld]
+root          60  0.0  0.0      0     0 ?        I<   14:39   0:00 [ipv6_addrconf]
+root          68  0.0  0.0      0     0 ?        I<   14:39   0:00 [kstrp]
+root          70  0.0  0.0      0     0 ?        I<   14:39   0:00 [zswap-shrink]
+root          71  0.0  0.0      0     0 ?        I<   14:39   0:00 [kworker/u5:0]
+root          75  0.0  0.0      0     0 ?        I<   14:39   0:00 [charger_manager]
+root          76  0.0  0.0      0     0 ?        S    14:39   0:00 [jbd2/sda1-8]
+root          77  0.0  0.0      0     0 ?        I<   14:39   0:00 [ext4-rsv-conver]
+root          79  0.0  0.0      0     0 ?        S    14:39   0:00 [hwrng]
+root         118  0.0  1.9 102612 18704 ?        S<s  14:39   0:08 /lib/systemd/systemd-journald
+root         152  0.0  0.0      0     0 ?        I<   14:39   0:00 [kaluad]
+root         153  0.0  0.0      0     0 ?        I<   14:39   0:00 [kmpath_rdacd]
+root         155  0.0  0.0      0     0 ?        I<   14:39   0:00 [kmpathd]
+root         159  0.0  0.0      0     0 ?        I<   14:39   0:00 [kmpath_handlerd]
+root         160  0.0  2.8 289312 27264 ?        SLsl 14:39   0:03 /sbin/multipathd -d -s
+root         169  0.0  0.4  22992  4224 ?        Ss   14:39   0:00 /lib/systemd/systemd-udevd
+root         184  0.0  0.0      0     0 ?        I<   14:39   0:00 [cryptd]
+systemd+     343  0.0  0.5  16248  5120 ?        Ss   14:39   0:00 /lib/systemd/systemd-networkd
+systemd+     345  0.0  0.8  25528  8544 ?        Ss   14:39   0:03 /lib/systemd/systemd-resolved
+message+     379  0.0  0.4   8604  4096 ?        Ss   14:39   0:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         383  0.0  1.0 1241252 10288 ?       Ssl  14:39   0:07 /usr/bin/google_osconfig_agent
+root         387  0.0  1.2  33080 12408 ?        Ss   14:39   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+syslog       399  0.0  0.5 222400  5376 ?        Ssl  14:39   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         411  1.6  1.4 1392840 14216 ?       Ssl  14:40   5:17 /usr/lib/snapd/snapd
+root         431  0.0  1.0 1307992 10212 ?       Ssl  14:40   0:07 /usr/bin/google_guest_agent
+_chrony      439  0.0  0.3  18916  3100 ?        S    14:40   0:00 /usr/sbin/chronyd -F 1
+_chrony      446  0.0  0.1  10588  1728 ?        S    14:40   0:00 /usr/sbin/chronyd -F 1
+root         474  0.0  0.2   6216  2176 ttyS0    Ss+  14:40   0:00 /sbin/agetty -o -p -- \u --keep-baud 115200,57600,38400,9600 ttyS0 vt220
+root         487  0.0  0.2   6172  2048 tty1     Ss+  14:40   0:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+root         509  0.0  1.2 110084 11776 ?        Ssl  14:40   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         517  0.0  0.5 235436  4908 ?        Ssl  14:40   0:01 /usr/libexec/polkitd --no-debug
+root         592  0.0  0.6  15420  5888 ?        Ss   14:40   0:02 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root         618  0.0  0.5  15504  4992 ?        Ss   14:40   0:01 /lib/systemd/systemd-logind
+root         660  0.0  0.2   7284  2432 ?        Ss   14:40   0:00 /usr/sbin/cron -f -P
+root        3792  0.0  0.0      0     0 ?        I<   15:11   0:00 [tls-strp]
+root       15564  0.0  0.0      0     0 ?        I    19:03   0:00 [kworker/1:2-events]
+ighedos+   15583  0.0  0.6  17056  6784 ?        Ss   19:10   0:00 /lib/systemd/systemd --user
+ighedos+   15584  0.0  0.5 103904  5364 ?        S    19:10   0:00 (sd-pam)
+root       15585  0.0  0.0      0     0 ?        I    19:10   0:00 [kworker/1:0-cgroup_destroy]
+ighedos+   15715  0.0  0.1   2888  1664 ?        S    19:10   0:00 sh /home/ighedosadt/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/ighedosadt/.vscode-server/.30d9c6cd9483b2cc586687151bcbcd635f373630.token
+ighedos+   15725  0.5  5.6 912840 54752 ?        Sl   19:10   0:19 /home/ighedosadt/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/node /home/ighedosadt/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/ighedosadt/.vscode-server/.30d9c6cd9483b2cc586687151bcbcd635f373630.token
+ighedos+   15797  0.5  3.8 974296 37816 ?        Sl   19:10   0:17 /home/ighedosadt/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/node /home/ighedosadt/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/bootstrap-fork --type=ptyHost
+root       15831  0.0  0.0      0     0 ?        I    19:14   0:00 [kworker/0:0-cgroup_destroy]
+root       15992  0.0  0.8  16908  8576 ?        Ss   19:23   0:00 sshd: ighedosadt [priv]
+ighedos+   16037  0.2  0.7  17768  7388 ?        S    19:23   0:05 sshd: ighedosadt@notty
+ighedos+   16038  0.0  0.3   7892  2944 ?        Ss   19:23   0:00 -bash
+ighedos+   16043  0.0  0.3   8420  3328 ?        S    19:23   0:00 bash
+ighedos+   16094  5.0 12.3 984116 119656 ?       Sl   19:23   2:06 /home/ighedosadt/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/node /home/ighedosadt/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+ighedos+   16105  0.1  2.3 899868 22680 ?        Sl   19:23   0:04 /home/ighedosadt/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/node /home/ighedosadt/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/bootstrap-fork --type=fileWatcher
+ighedos+   16152  2.9  2.2  73668 21444 ?        Sl   19:23   1:14 /home/ighedosadt/.vscode-server/extensions/ms-vscode.cpptools-1.17.5-linux-x64/bin/cpptools
+ighedos+   16185  0.0  0.5   9292  4992 pts/1    Ss   19:23   0:00 /usr/bin/bash
+root       16221  0.0  0.0      0     0 ?        I    19:23   0:00 [kworker/u4:2-events_unbound]
+ighedos+   16764  3.6 17.3 4284420 168616 ?      Sl   19:24   1:28 /home/ighedosadt/.vscode-server/extensions/ms-vscode.cpptools-1.17.5-linux-x64/bin/cpptools-srv 16152 {2C1BF921-767F-4783-A1CA-899C9CEA2F98}
+root       17917  0.0  0.0      0     0 ?        I    19:29   0:00 [kworker/u4:1-flush-8:0]
+ighedos+   18397  0.0  6.3 4272892 61924 ?       Sl   19:39   0:01 /home/ighedosadt/.vscode-server/extensions/ms-vscode.cpptools-1.17.5-linux-x64/bin/cpptools-srv 16152 {E8CBD1A6-55B6-4FEE-8899-2857FD729BAD}
+root       18621  0.0  0.0      0     0 ?        I    19:45   0:00 [kworker/u4:3-flush-8:0]
+root       20539  0.0  0.0      0     0 ?        I    19:53   0:00 [kworker/0:1-mm_percpu_wq]
+root       21510  0.0  0.0      0     0 ?        I    19:59   0:00 [kworker/u4:0-events_unbound]
+root       21659  0.0  0.0      0     0 ?        I    20:04   0:00 [kworker/u4:4]
+root       21660  0.0  0.0      0     0 ?        I    20:04   0:00 [kworker/0:2-events]
+root       21895  0.0  0.0      0     0 ?        I    20:05   0:00 [kworker/1:1-events]
+ighedos+   21908  0.0  0.7 21474909344 7168 pts/1 S+  20:05   0:00 ./shell
+ighedos+   21943  0.0  0.1   2888  1664 ?        S    20:05   0:00 /bin/sh -c "/home/ighedosadt/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/base/node/cpuUsage.sh" 16185 21908
+ighedos+   21944  0.0  0.3   7760  3072 ?        S    20:05   0:00 /bin/bash /home/ighedosadt/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/base/node/cpuUsage.sh 16185 21908
+ighedos+   21948  0.0  0.1   6188  1920 ?        S    20:05   0:00 sleep 1
+ighedos+   21949  0.0  0.3  10460  3200 pts/1    R+   20:05   0:00 ps aux

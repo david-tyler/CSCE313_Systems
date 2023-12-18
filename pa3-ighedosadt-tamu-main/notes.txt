@@ -1,0 +1,25 @@
+Client():
+    - need to join() threads after making them otherwise they will conitnue executing which is an issue  
+
+Data Transfers:
+    - create p - threads to produce datamsgs (with ecg1)
+    - create w FIFOs (channels) for the workers to use
+    - create w threads to consume and process datamsgs
+        -> worker threads produce results of process datamsgs
+    - create h-threads to consume results and populate Histogram (with update)
+
+Histogram:
+    - uses mutex to avoid race conditions
+
+File Transfers:
+    - collect file size
+    - create a thread to produce filemsgs
+    - create w threads to consume and process filemsgs
+        -> use fseek (with SEEK_SET) to write to file (open mode important)
+
+Bounded Buffer:
+    - STL queue with objects vector<char>
+    - use a mutex and cond var
+        -> mutex is wrapped in unique_lock. the unique wrapper handles the data and metadata of the object inside of it
+    - push (producer thread) waits on size < cap; notify pop that data available (cond var)
+    - pop (consumer thread) waits on size > 0; notify push that slot available (cond var)
